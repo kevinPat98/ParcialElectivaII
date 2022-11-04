@@ -4,8 +4,10 @@ Integrantes: WILLIN STIVEN FUENTES LADINO, KEVIN NICOLAS PATIÑO SAENZ
 
 BAse de datos en la nube. PEro no se pudo subir el archivo toca descargar en local
 
+
+
 # CREAR ESTUDIANTE
-
+http://localhost:8080/student METODO POST
 
 body
 {
@@ -16,7 +18,9 @@ body
     "phone": "320"
 }
 
-# EDITAR ESTUDIANTE
+# EDITAR ESTUDIANTE METODO PUT
+http://localhost:8080/student
+
 body
 {
     "id_student": 1,
@@ -26,19 +30,25 @@ body
     "phone": "320"
 }
 
-# ELIMINA ESTUDIANTE
+# ELIMINA ESTUDIANTE METODO DELETE
+http://localhost:8080/student/1
 
-# MOSTRAR UN ESTUDIANTE
+# MOSTRAR UN ESTUDIANTE GET 
+http://localhost:8080/student/1
 
-# MOSTRAR ESTUDIANTES
+# MOSTRAR ESTUDIANTES GET 
+http://localhost:8080/student
 
-# MOSTRAR MATERIAS DE UN ESTUDIANTE
+# MOSTRAR MATERIAS DE UN ESTUDIANTE  METODO GET
+http://localhost:8080/student/matter/2
 
-
+# AGREGAR MATERIA A ESTUDIANTE METODO POST
+http://localhost:8080/student/1/matter/2
 
 # --------
 
-# CREAR MATERIA
+# CREAR MATERIA METDO POST
+http://localhost:8080/matter
 
 body
 {
@@ -47,7 +57,8 @@ body
     "cedits": "4"
 }
 
-# EDITAR MATERIA
+# EDITAR MATERIA METODO PUT
+http://localhost:8080/matter
 body
 {
     "code": 2,
@@ -55,10 +66,13 @@ body
     "cedits": "4"
 }
 
-# ELIMINAR MATERIA
+# ELIMINAR MATERIA METODO DELETE
+http://localhost:8080/matter/1
 
-# MOSTRAR UNA MATERIA
+# MOSTRAR UNA MATERIA METODO GET
+http://localhost:8080/matter/1
 
-# MOSTRAR MATERIAS
+# MOSTRAR MATERIAS METODO GET
+http://localhost:8080/matter
 
 
