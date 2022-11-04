@@ -2,8 +2,10 @@
 
 Integrantes: WILLIN STIVEN FUENTES LADINO, KEVIN NICOLAS PATIÑO SAENZ
 
+BAse de datos en la nube. PEro no se pudo subir el archivo toca descargar en local
 
 # CREAR ESTUDIANTE
+
 
 body
 {
